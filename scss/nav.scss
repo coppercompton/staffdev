@@ -1,0 +1,13 @@
+ul {
+	li {
+		a {
+			color: $prim-colour;
+		}
+	}
+}
+
+.jumbotron {
+	background-color: $prim-colour;
+	@include border-rad(30px);
+	@include opacity(0.6);
+}
